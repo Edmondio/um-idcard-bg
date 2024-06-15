@@ -59,10 +59,16 @@ const openIdCard = (playerData) => {
 
   getElementById('mugshot').src = playerData.mugShot;
   getElementById('smallmugshot').src = playerData.mugShot;
-  getElementById('um-idcard').style.backgroundColor = license.background;
-  getElementById('um-idcard').classList.add('animate__animated', 'animate__fadeInLeft', 'animate__faster');
-  setBadgeVisibility(playerData.badge);
+
+
+
+  // Applique le fond complexe
+  const idcardElement = document.getElementById('um-idcard');
+  idcardElement.style.background = `${license.background} url('${license.backgroundImage}') no-repeat center center`;
+  idcardElement.style.backgroundSize = 'cover';
+  idcardElement.classList.add('animate__animated', 'animate__fadeInLeft', 'animate__faster');
   setVisibility('visible');
+  setBadgeVisibility(playerData.badge);
   autoClose();
 };
 
