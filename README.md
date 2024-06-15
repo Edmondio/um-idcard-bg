@@ -1,3 +1,8 @@
+# CHANGE: Add the ability to set a background image, by card type and directly in the config. 
+
+![screenshot]image.png)
+
+
 # ⚠️ If you are having problems with um-idcard, you can wait for an update or alternatively use the following scripts suggested by um
 * [bl_idcard](https://github.com/Byte-Labs-Studio/bl_idcard)
 * [five_idcard](https://github.com/cinquina/five-idcard)
