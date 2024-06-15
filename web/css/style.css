@@ -29,7 +29,7 @@
     font-size: 13px;
     border-radius: 7px;
 }
- #um-idcard {
+  /* #um-idcard {
      visibility: hidden;
      width: 43vh;
      height: auto;
@@ -39,6 +39,22 @@
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      flex-direction: column;
      align-items: center;
+} */
+
+#um-idcard {
+    visibility: hidden;
+    width: 43vh;
+    height: auto;
+    border-radius: 1.3vh;
+    /* Utilisation de rgba() pour rendre l'image de fond semi-transparente */
+    /* GERER PAS LE JAVASCRIPT background: rgba(0, 0, 0, 0.7) url('https://edmondio.info/slash/identite/id_background_usa.png') no-repeat center center;
+    background-size: cover; /* Pour couvrir tout l'espace disponible */
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-direction: column;
+    align-items: center;
+    color: #000000; /* Couleur du texte */
+    position: relative; /* Position relative pour permettre le positionnement absolu du fond */
 }
  #um-idcard .header {
      display: flex;
